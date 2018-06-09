@@ -3,9 +3,9 @@
 Contributors: alopeyk, bmoudi
 Tags: alopeyk, woocommerce, shipping, delivery, e-commerce, shop, shipping method, iran
 Requires at least: 4.4
-Tested up to: 4.9.4
-Stable tag: 1.3.1
-Requires PHP: 5.4
+Tested up to: 4.9.6
+Stable tag: 1.3.3
+Requires PHP: 5.6
 WC requires at least: 2.6
 WC tested up to: 3.3.5
 License: GNU General Public License v3.0
@@ -54,7 +54,7 @@ Include Alopeyk On-demand Delivery in WooCommerce shop shipping methods.
 
 = Minimum Requirements =
 
-* PHP version 5.4 or greater (PHP 5.6 or greater is recommended)
+* PHP version 5.6 or greater
 * MySQL version 5.0 or greater (MySQL 5.6 or greater is recommended)
 * WordPress 4.4 or greater
 * Interactions with Alopeyk API also need cURL and OpenSSL PHP extensions
@@ -127,3 +127,10 @@ Sure, will be. Currently we are working on it and will be released as soon as it
 *   **Fix** : Loading default and minified version of assets based on WP_DEBUG constant
 = 1.3.1 =
 *   **Fix** : Current location CTA UI override issue
+= 1.3.2 =
+*   **Fix** : Admin panel origin map visibility
+= 1.3.3 =
+*   **New** : Add new supported cities
+= 1.4.0 =
+*   **New** : Update plugin from github master source
+*   **New** : Manage timezone setting
